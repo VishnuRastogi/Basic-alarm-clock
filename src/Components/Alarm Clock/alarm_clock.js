@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './alarm_clock.css';
-import Analog_clock from "../Analog Clock/analog_clock";
+import Analogclock from "../Analog Clock/analog_clock";
 
 function AlarmClock() {
     const [hour, setHour] = useState(null);
@@ -49,7 +49,7 @@ function AlarmClock() {
 
             <h2>Alarm Clock</h2>
             <p>Current Time: {currentTime.toLocaleTimeString()}</p>
-            <Analog_clock />
+            <Analogclock />
             <div className='setAlarm-container'>
                 <label htmlFor="alarmTime">Set Alarm for:</label>
                 <div className='input-container'>
