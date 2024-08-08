@@ -16,7 +16,7 @@
     padding: 10px;
     /* background-color: #02c3b2;  */
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
 }
 .input-container{
     margin-top: 05px;
