@@ -1,0 +1,97 @@
+.clock {
+    position:relative;
+	margin-top:30px;
+    margin-bottom: 50px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:10px;
+	background:rgba(250,250,250,1);
+	box-shadow:10px 10px 20px rgba(20, 150, 170,.5) ,10px 10px 20px rgba(20, 150, 170,.3) inset,-10px -10px 20px #fff,-10px -10px 20px #ccc inset ;
+	border: dotted 0px  #000;
+	border-radius:50%;
+	height:200px;
+	width:200px;
+}
+
+.center-dot{
+	position:absolute;
+	top:46%;
+	left:45.5%;
+    background-color: rgba(20, 150, 170,1);
+	border:solid 2px #000;
+	border-radius:50%;
+	width:15px;
+	height:15px;
+	z-index:9;
+}
+.line-container{
+	position: absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	border-radius:50%;
+	text-align:center;
+	align-items: center;
+	z-index:4;	
+}
+.line{
+	position: absolute;
+	bottom:50%;
+	left:49.3%;
+    background-color: rgb(20, 150, 170);
+	height:75px;
+	width:02px;
+	float:left;
+}
+.tip{
+	margin-top:-05px;
+	margin-left:-3px;
+	background: #fff;
+	border:solid 2px #000;
+	width:05px;
+	height:05px;
+	border-radius:50px;
+
+}
+#min{
+	z-index:3;
+}
+#min .line{
+	height:60px;
+}
+#hrs{
+	z-index:2;
+}
+#hrs .tip{
+	margin-left: -01px;
+	
+}
+#hrs .line{
+	height:45px;
+	width: 05px;
+}
+.t{
+	margin:0;
+	padding:0;
+	position:absolute;
+	font-size:18px;
+	font-weight:bolder;
+	color:#373737;
+}
+.t-12{
+	top:10px;
+	left:46%;
+}
+.t-6{
+	bottom:10px;
+	left:48%;
+}
+.t-9{
+	top:45%;
+	left:10px;
+}
+.t-3{
+	top:45%;
+	right:10px;
+}
